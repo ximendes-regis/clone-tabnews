@@ -1,0 +1,7 @@
+criar container: docker compose up -d
+criar container: docker compose -f infra/compose.yaml up
+recriar container: docker compose up -d --force-recreate
+ver container: docker ps -a
+
+
+psql --host=localhost --username=postgres --port=5432
