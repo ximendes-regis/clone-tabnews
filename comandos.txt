@@ -1,3 +1,7 @@
+dicas:
+  Ao digitar um comando no terminar e colocar um espaço na frente, ele nao aparece com o
+  comando history
+
 criar container: docker compose up -d
 criar container: docker compose -f infra/compose.yaml up
 recriar container: docker compose up -d --force-recreate
