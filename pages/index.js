@@ -4,7 +4,9 @@ import ReactDOM from "react-dom";
 function UnderConstruction() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100 text-center">
-      <h1 className="text-4xl font-bold text-gray-800">Site em Construção</h1>
+      <h1 className="text-4xl font-bold text-gray-800">
+        Tab News em construção
+      </h1>
       <p className="text-lg text-gray-600 mt-4">
         Estamos trabalhando para trazer algo incrível em breve!
       </p>
@@ -15,5 +17,4 @@ function UnderConstruction() {
   );
 }
 
-// ReactDOM.render(<UnderConstruction />, document.getElementById("root"));
 export default UnderConstruction;
