@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run services:up && npm run wait-for-postgres && next dev",
+    "dev": "npm run wait-for-postgres && next dev",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "concurrently --names next,jest -k --success command-jest \"next dev\" \"jest --runInBand --verbose\"",
