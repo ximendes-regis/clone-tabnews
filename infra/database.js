@@ -27,7 +27,9 @@ async function getClient() {
   return client;
 }
 
-export default {
+const db = {
   query,
   getClient,
 };
+
+export default db;
